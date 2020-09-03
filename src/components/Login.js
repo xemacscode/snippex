@@ -30,7 +30,7 @@ class Login extends Component{
             <Link to="/">
                 <img
                 className="login__logo"
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1024px-Amazon_logo.svg.png" 
+                src="https://raw.githubusercontent.com/xemacscode/snippex/master/src/images/logo.png" 
                 alt="" />
             </Link>
             <div className="login__container">
