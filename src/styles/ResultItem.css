@@ -1,0 +1,21 @@
+.result{
+    padding: 10px;
+    border-left: 5px solid #0055bd;
+    border-bottom: 1px solid #ccc;
+    
+}
+.result a{
+    text-decoration: none;
+}
+
+.result__title{
+    font-weight: 400;
+    font-size: 20px;
+}
+.result__metaData{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #737373;
+}

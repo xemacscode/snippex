@@ -1,0 +1,17 @@
+.welcome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.welcome__content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.welcome__content > a{
+    margin-top: 20px;
+    text-decoration: none;
+}

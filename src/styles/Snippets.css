@@ -1,0 +1,16 @@
+.snippets{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    width: 100%;
+}
+.snippets__welcome{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.snippets__welcome > Button{
+ margin-top: 15px;
+}

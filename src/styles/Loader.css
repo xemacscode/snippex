@@ -1,0 +1,21 @@
+.loader{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+}
+.loader > div {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+}
+.loader__wave{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

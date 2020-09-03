@@ -1,0 +1,54 @@
+.addsnippet{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.addsnippet__title{
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.addsnippet__row{
+    padding: 10px;
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.addsnippet__row > MuiFormControl-root{
+    width: 50% !important;
+}
+
+.addsnippet__rowCol70{
+    width: 70%;
+    margin-right: 20px;
+}
+.addsnippet__rowCol70 > input{
+    width: 100%;    
+}
+.addsnippet__rowCol30{
+    width: 30%;
+}
+
+.addsnippet__rowSingle{
+    padding: 10px;
+}
+#UNIQUE_ID_OF_DIV{
+    width: 100% !important;
+    font-size: 14px !important;
+    border: 1px solid #ccc; 
+    height: 400px !important;
+}
+#standard-basic{
+    width: 100% ;
+}
+.addsnippet__rowBottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;    
+}
+
+#btnSave{
+    margin-right: 10px;
+}

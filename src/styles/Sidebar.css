@@ -1,0 +1,217 @@
+.sidebar{
+    flex: 0.40;   
+    display: flex; 
+    color: #fff;
+}
+.sidebar__first{
+    border-right: 1px solid lightgrey;
+    display: flex;
+    flex-direction: column;
+    background-color: #2b2b2b;
+}
+.sidebar__second{
+    border-right: 1px solid lightgrey;
+}
+.sidebar__header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;    
+}
+.sidebar__headerRight{
+    display: flex;    
+    justify-content: right;    
+    min-width: 10vw;
+    margin-left: auto;
+    text-align: right;
+}
+.sidebar__headerRight a{
+    font-weight: 500;
+    /* background-color: #4f4f4f; */
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+    padding-left: 15px;
+    margin-bottom: 5px;
+    cursor: pointer;    
+}
+.sidebar__headerRight > h2{
+    margin: auto;
+}
+
+.sidebar__snippets h5{
+    font-weight: 500;
+    background-color: #4f4f4f;
+    padding: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;    
+}
+.sidebar__folders h5, .sidebar__languages h5{
+    font-weight: 500;    
+    padding: 10px;
+    margin-bottom: 5px;
+    color: #ccc;
+}
+
+.sidebar__snippets h5:hover{
+    background-color:  grey;
+}
+
+.sidebar__search{
+    display: flex;
+    align-items: center;
+    background-color: #f6f6f6;
+    height: 39px;
+    padding: 10px
+}
+
+.sidebar__search > input{
+    border: none;
+    margin-left: 5px;
+    padding: 10px;
+}
+.sidebar__search > .MuiSvgIcon-root{
+    padding: 10px;
+    color: grey;
+
+}
+.sidebar__searchContainer{
+    border-bottom: 1px solid #ccc;
+}
+
+.sidebar__second{
+    color: #2e2e2e;
+}
+
+.sidebar__snippetsCount{
+    float: right;
+}
+
+.sidebar__foldersAdd{
+    float: right;
+    font-size: 14px;    
+    cursor: pointer;
+}
+.sidebar__foldersForm{
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+    margin: 0;    
+    padding: 0;
+    padding-bottom: 5px;
+}
+.sidebar__foldersForm input{
+    border: none;
+    padding: 8px;
+    margin-left: 5px;
+    background-color: #ccc;
+}
+.sidebar__foldersForm button{
+    padding: 8px;
+    width: 100%;
+    border: none;
+    margin-right: 3px;
+}
+
+.sidebar__foldersAll{
+    padding-top: 0;
+    padding-left: 10px;
+    font-size: 14px;
+    color: bisque;
+}
+.sidebar__foldersAll > h4{
+    cursor: pointer;
+    padding: 2px;
+}
+.sidebar__foldersAll > h4:hover{
+    background-color: #fff;
+    color: #000;
+    
+}
+.sidebar__options{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sidebar__options a {
+    width: 100%;
+    margin: 4px;
+}
+.sidebar__optionsNew{
+    padding: 10px;
+    margin-bottom: 10px;   
+    background-color: burlywood;
+    border-radius: 2px;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+}
+.sidebar__options > button:focus{    
+    border: none;    
+}
+.sidebar__optionsNew:active{    
+    border: none;    
+    outline: none;
+}
+
+.sidebar__resultContainer a{
+    text-decoration: none;
+}
+
+.sidebar__menus{
+    display: flex;
+    align-items: center;
+    justify-content: center;        
+    
+}
+.sidebar__menus > a{
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sidebar__avatar{
+    background-color: rgb(138, 35, 255) !important;
+}
+
+.sidebar__languages > h5 {
+    font-weight: bold;    
+    color: burlywood;    
+    font-weight: 500;
+    background-color: #4f4f4f;
+    padding: 10px;
+    margin-bottom: 5px;
+    
+}
+.sidebar__languages > h4{
+    padding: 2;
+    padding-left: 10px;
+    font-size: 15;
+    color: bisque;
+    font-weight: lighter;    
+    cursor: pointer;
+    font-style: italic;
+}
+
+.sidebar__languages > h4:hover{
+    background-color: #fff;
+    color: #000;
+    
+}
+
+.sidebar__languages{
+    padding-top: 0;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    font-size: 14px;
+    color: bisque;
+}
+
+.sidebar__mainTabs{
+    font-weight: 500;
+    background-color: #4f4f4f;
+    padding: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
