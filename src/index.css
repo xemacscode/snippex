@@ -20,5 +20,9 @@ code {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 600px;
+  height: 400px;
+}
+
+.hljs{
+  height: 400px !important;
 }
